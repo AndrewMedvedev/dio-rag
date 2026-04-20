@@ -7,7 +7,7 @@ router = APIRouter(prefix="/chat", tags=["Chat"])
 
 
 @router.post(
-    path="/",
+    path="/completions",
     status_code=status.HTTP_200_OK,
     response_model=Message,
     summary="Чат с RAG агентом",
