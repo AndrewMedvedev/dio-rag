@@ -8,7 +8,7 @@ TIMEZONE = "Asia/Yekaterinburg"
 BASE_DIR = Path(__file__).resolve().parent.parent
 ENV_PATH = BASE_DIR / ".env"
 CHROMA_PATH = BASE_DIR / ".chroma"
-SQLITE_PATH = BASE_DIR / "checkpoint.sqlite"
+SQLITE_PATH = BASE_DIR / "data" / "checkpoint.sqlite"
 load_dotenv(ENV_PATH)
 
 
